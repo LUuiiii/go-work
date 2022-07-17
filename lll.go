@@ -30,4 +30,5 @@ func kaisamima(n int,ora string ) string{
 
  func main(){
 	fmt.Println(kaisamima(1,"z"));
+	
  }
