@@ -9,8 +9,6 @@ func kaisamima(n int,ora string ) string{
  
 	   for j := 0; j < len(target); j++ {
 		  if ora[i]==target[j]{
-	   
- 
 			 out_of_bounds:=(j+n)/26
  
 			 if out_of_bounds>0{
@@ -21,9 +19,7 @@ func kaisamima(n int,ora string ) string{
 			 break
  
 		  }
- 
 	   }
- 
 	}
 	return ans
  }
